@@ -1,0 +1,26 @@
+GET http://localhost:4000/api/users/6035f8d9-1d34-4776-b151-32b7eb4dab43
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJyb2NrZWxpdmVyeSIsImV4cCI6MTY0MDM4NzMyMywiaWF0IjoxNjM3OTY4MTIzLCJpc3MiOiJyb2NrZWxpdmVyeSIsImp0aSI6ImMyMmIyYTQ1LTdlNmYtNGQ5YS1hN2Y5LTNlYTdhNzJlNGFlYSIsIm5iZiI6MTYzNzk2ODEyMiwic3ViIjoiZWNkOTEwZTEtZjVhNS00ZDJjLTgzYjYtZjM4ZGRlNzA1YzYxIiwidHlwIjoiYWNjZXNzIn0.3jhEQQq90GnPt2Qj71XYAD4jHOhixJ8j9f5rjXmmmmPOLcFRptwRc-uePPAFrp8hYAQ-pEhC5Ishuj0nJQNG2A
+
+###
+
+GET http://localhost:4000/api/users
+
+### 
+POST http://localhost:4000/api/users
+content-type: application/json
+
+{
+    "password": "123456"
+}
+
+### 
+POST http://localhost:4000/api/users/signin
+content-type: application/json
+
+{
+    "id": "46f7151c-3ce7-4aa6-a8b8-b5dcaf56ba0b",
+    "password": "1234567"
+}
+
+
