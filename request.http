@@ -19,8 +19,8 @@ POST http://localhost:4000/api/users/signin
 content-type: application/json
 
 {
-    "id": "46f7151c-3ce7-4aa6-a8b8-b5dcaf56ba0b",
-    "password": "1234567"
+    "id": "587b1c63-780c-48b6-9336-2554b6ec4ba6",
+    "password": "123456"
 }
 
 

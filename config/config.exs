@@ -14,7 +14,7 @@ config :autenticacao_jwt, AutenticacaoJwt.Repo,
   migration_primary_key: [type: :binary_id],
   migration_foreign_key: [type: :binary_id]
 
-config :autenticacao_jwt, AutenticacaoJwt.Auth.Guardian,
+config :autenticacao_jwt, AutenticacaoJwtWeb.Auth.Guardian,
   issuer: "autenticacao_jwt",
   secret_key: "TfChCQjVeZxOb/eWS0AqHJgjzruwo9pOEF4+x8vTJRoMcXaQpcUu3Yk5qtfERbZP"
 
